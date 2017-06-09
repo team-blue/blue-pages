@@ -7,3 +7,20 @@ body {
 .container .jumbotron {
   border-radius:40px;
 }
+
+input[type=text] {
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  font-size: 14pt;
+  width: 400px;
+  height: 2.5em;
+  margin: 0 auto;
+  /*-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;*/
+}
+
+/* When the input field gets focus, change its width to 100% */
+/*input[type=text]:focus {
+  width: 100%;
+}*/
