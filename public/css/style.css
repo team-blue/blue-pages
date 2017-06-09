@@ -6,6 +6,10 @@ body {
   border-radius:40px;
 }
 
+container {
+  max-width:800px;
+}
+
 input[type=text] {
   position: relative;
   display: block;
