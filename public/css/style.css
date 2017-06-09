@@ -10,7 +10,7 @@ container {
   max-width:800px;
 }
 
-input[type=text] {
+input[type=search] {
   position: relative;
   display: block;
   border-radius: 5px;
@@ -24,8 +24,7 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
+input[type=search]:focus {
   width: 500px;
   background: rgb(240,240,240);
 }
@@ -35,9 +34,6 @@ input[type=text]:focus {
   font-size: 62pt;
 }
 
-/*ul {
-  display: inline;
-}*/
 ul li {
   display: inline;
   list-style: none;

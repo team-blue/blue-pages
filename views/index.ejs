@@ -6,19 +6,25 @@
 
 	<!-- CSS -->
 	<!-- load bootstrap and our own personal stylesheet -->
-	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css"
+				rel="stylesheet">
+	<link rel="stylesheet"
+				href="css/style.css">
+	<script language="javascript"
+           type="text/javascript"
+           src="js/utils.js">
+  </script>
 
 </head>
 	<body style="margin:0;">
 		<container>
 
-		<menu style="float:right;">
+		<menu style="float:right;font-size:14pt;">
 			<ul>
-				<li>item</li>
-				<li>item</li>
-				<li>item</li>
-				<li>item</li>
+				<li>about</li>
+				<li>dev tools</li>
+				<li>the team</li>
+				<li>contact</li>
 			</ul>
 		</menu>
 
@@ -35,7 +41,11 @@
 		</div>
 
 		<div class="container" align="center">
-			<input type="text" name="search" placeholder="Search for an artist, album or song...">
+			<input id="compen-search"
+						 type="search"
+						 onsearch="print_search()"
+						 name="search"
+						 placeholder="Search for an artist, album or song...">
 			<br>
 			<p>top searches: <em>"The Beatles", "Radiohead", "Hamilton Soundtrack", "Thriller"</em></p>
 		</div>
