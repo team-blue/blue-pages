@@ -1,8 +1,6 @@
 
-
-
 body {
-  padding-top:50px;
+  padding-top:0px;
 }
 .container .jumbotron {
   border-radius:40px;
@@ -12,15 +10,32 @@ input[type=text] {
   position: relative;
   display: block;
   border-radius: 5px;
+  background: rgb(220,220,220);
   font-size: 14pt;
   width: 400px;
   height: 2.5em;
   margin: 0 auto;
-  /*-webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;*/
+  text-align: center;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 /* When the input field gets focus, change its width to 100% */
-/*input[type=text]:focus {
-  width: 100%;
+input[type=text]:focus {
+  width: 500px;
+  background: rgb(240,240,240);
+}
+
+.top-title {
+  text-align: center;
+  font-size: 62pt;
+}
+
+/*ul {
+  display: inline;
 }*/
+ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 50px;
+}
